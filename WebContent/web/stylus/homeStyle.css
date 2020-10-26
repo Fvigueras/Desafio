@@ -2,10 +2,24 @@
 
 body {
 	font-family: "Helvetica";
-	background-color: green;
-	font-size: 18;
+	background-color: darkgrey;
+	display: block;
 };
 
-button{
+#buttonAlign{
 	font-weight: bold;
+	margin-top: 15px;
+    margin-left: 10px;
+};
+
+div{
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+};
+
+.inputText{
+	margin-top: 15px;
+    margin-left: 5px;
 };

@@ -75,7 +75,7 @@ function getCountCharacters() {
 	$("#timeCharacterId").val(transformMsToSeconds(end-start));
 };
 
-// Valida que las otras Apis hayan sido llamadas antes si no las 
+// Valida que las otras Apis hayan sido llamadas antes si no las
 // ejecuta antes de seguir
 function getValidateApiCall() {
 	var start = Date.now();
@@ -140,7 +140,7 @@ function getEpisodesLocation(){
 	console.log(episodesList);
 };
 
-//Ordena la lista para mostrarla por pantalla
+// Ordena la lista para mostrarla por pantalla
 function infoOrder(episodesList){
 	var tdTable = "";
 	for(i=0;episodesList.length >i ; i++){
